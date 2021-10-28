@@ -3,9 +3,14 @@
   background: rgba(22, 25, 130, 0.949);
   color: white;
 }
-/* .navbar-row{
-  background-color: transparent;
-} */
+.NCC-Logo img{
+  margin: 16px 0px 4px 16px;
+  height: 90px;
+}
+.IITR-Logo img{
+  margin: 16px 0px 0px 0px;
+  height: 80px;
+}
 .collapsed{
   transform: translateX(0) !important;
 }
@@ -19,10 +24,6 @@
   font-size: 25px;
   margin-bottom: .5rem;
 }
-/* .navLinks{
-    width: 85%;
-    margin: auto;
-} */
 .navLinks li a:link{
     color: white !important;
     font-size: 20px;
@@ -43,14 +44,6 @@
 .navLinks li a:active{
   border-bottom: white 1px solid;
   padding-bottom: 1px;
-}
-.NCC-Logo img{
-  margin: 16px 0px 4px 16px;
-  height: 90px;
-}
-.IITR-Logo img{
-  margin: 16px 0px 0px 0px;
-  height: 80px;
 }
 #title_footer {
   border-bottom: 2px solid;
@@ -169,12 +162,9 @@ a#logo3:hover > img{
     margin-left: 0px;
 
   }
-  #carouselExampleIndicators button{
+  #carouselExampleIndicators > button{
         display: none;
   }
-  /* #carouselExampleIndicators .carousel-inner{
-    height: 600px;
-  } */
 }
 
 @media (max-width: 760px){
