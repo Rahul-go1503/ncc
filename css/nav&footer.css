@@ -123,8 +123,8 @@ a#logo3:hover > img{
     position: absolute;
     transform: translateX(-100vw);
     text-align: center;
-    width: 90vw;
-    height: 90vh;
+    width: 80%;
+    height: 70%;
     background: rgba(22, 25, 130, 0.969);
   }
   .toggle-icon{
