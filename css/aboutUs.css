@@ -199,6 +199,10 @@
   margin: 40px 0;
   flex-wrap: wrap;
 }
+.section-1 p,
+.section-2 p{
+  margin-bottom: 4px;
+}
 .section-1 .item {
   text-align: center;
   background-color: white;
@@ -253,9 +257,11 @@
     flex-direction: column !important;
   }
   .heading {
-    font-size: 16px;
-    line-height: 19px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
   }
+  
   .line {
     width: 20%;
     height: 2px;
@@ -276,4 +282,14 @@
     display: none;
   }
 }
-
+@media only screen and (max-width: 360px){
+  .section-1 .name {
+    font-size: 16px;
+  }
+  .section-1 .designation {
+    font-size: 12px;
+  }
+  .section-1 .contact{
+    font-size: 14px;
+  }
+}
