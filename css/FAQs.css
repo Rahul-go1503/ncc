@@ -11,6 +11,7 @@
 }
 .heading {
   font-family: Raleway;
+  margin: 48px 0 48px 0;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -19,9 +20,17 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .heading {
+    margin: 40px 0 40px 0;
+    font-size: 28px;
+    line-height: 37px;
+  }
+}
 @media only screen and (max-width: 360px) {
   .heading {
-    font-size: 20px;
+    margin: 30px 0 30px 0;
+    font-size: 23px;
     line-height: 27px;
   }
 }
